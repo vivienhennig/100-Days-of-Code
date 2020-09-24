@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darksalmon;
+    color: whitesmoke;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#countdownContainer {
+    font-size: 56px;
+    font-weight: 500;
+}
+
+#countdownTitle {
+    font-size: 36px;
+    font-weight: 100;
+}
