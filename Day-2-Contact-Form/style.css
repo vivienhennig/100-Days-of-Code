@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+input, textarea {
+    margin: 0.5em auto;
+    padding: 1em;
+    width: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30em;
+    max-height: 60vh;
+    margin: auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+}
+
+#submitButton {
+    font-size: 1em;
+    color: white;
+    background-color: darkslateblue;
+    transition: ease-in 300ms;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    letter-spacing: 0.2em;
+} 

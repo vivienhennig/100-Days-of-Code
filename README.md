@@ -7,3 +7,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 ## List of projects
 
 1. Countdown page to the day 100
+2. Contact form with success message
