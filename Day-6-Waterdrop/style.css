@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: thistle;
+}
+
+.waterdropContainer {
+    width: 60em;
+    height: 30em;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #00000063;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.waterdrop {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50px;
+    animation: dropAnimation 4s linear forwards;
+}
+
+@keyframes dropAnimation {
+    0% {opacity: 0; width: 1em; height: 1em;}
+    12.5% {opacity: 0.4; width: 2em; height: 2em;}
+    25% {opacity: 0.8; width: 3.5em; height: 3.5em;}
+    37.5% {opacity: 0.9; width: 4.5em; height: 4.5em;}
+    50% {opacity: 1; width: 5em; height: 5em;}
+    62.5% {opacity: 0.9; width: 4.5em; height: 4.5em;}
+    75% {opacity: 0.8; width: 3.5em; height: 3.5em;}
+    87.5% {opacity: 0.4; width: 2em; height: 2em;}
+    100% {opacity: 0; width: 1em; height: 1em;}
+}
