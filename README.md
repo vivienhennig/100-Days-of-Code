@@ -12,3 +12,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 4. Color Changer
 5. Cryptograph
 6. Waterdrop Animation
+7. Password Generator
