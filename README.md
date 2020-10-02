@@ -14,3 +14,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 6. Waterdrop Animation
 7. Password Generator
 8. KeyCode Display
+9. Loading Animation
