@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkseagreen;
+}
+
+.circle {
+    height: 10em;
+    width: 10em;
+    border: forestgreen solid 1em;
+    border-top: rgb(78, 158, 78) solid 1em;
+    border-radius: 50%;
+    animation: loadingAnimation 2s linear infinite;
+}
+
+@keyframes loadingAnimation {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
