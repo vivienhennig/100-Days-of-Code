@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: firebrick;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    width: 30em;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+input {
+    width: 28em;
+    padding: 0.5em;
+    margin: 1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    border: firebrick solid 2px;
+}
+
+button {
+    width: 28em;
+    padding: 0.5em;
+    margin: 1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #ffffff;
+    border: seagreen solid 2px;
+    background-color: seagreen;
+    cursor: pointer;
+    transition: linear 400ms;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: seagreen;
+}
+
+.validInput {
+    border: seagreen solid 2px;
+}
+
+p {
+    text-align: center;
+    color: firebrick;
+}
+
+h1 {
+    text-align: center;
+    color: seagreen;
+}
