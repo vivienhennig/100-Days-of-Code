@@ -16,3 +16,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 8. KeyCode Display
 9. Loading Animation
 10. Address Form
+11. Pricing Design

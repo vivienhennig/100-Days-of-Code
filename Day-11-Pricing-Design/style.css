@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    background-color: rgb(240, 229, 229);
+}
+
+.pricingOptionsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 70%;
+}
+
+h1 {
+    width: 100%;
+    margin: 2em auto;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.pricingOption {
+    padding: 2em;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+p {
+    margin: 1.5em auto;
+}
+
+span {
+    color: steelblue;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+button {
+    width: 15em;
+    padding: 0.5em;
+    background-color: steelblue;
+    color: #ffffff;
+    border: solid 2px steelblue;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.highlighted {
+    border-top: orange solid 5px;
+    box-shadow: 5px 10px 8px 10px gainsboro;
+}
