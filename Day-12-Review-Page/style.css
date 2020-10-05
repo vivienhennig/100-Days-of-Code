@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eae2b7;
+}
+
+.reviewContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em;
+    color: #003049;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin: 1em;
+}
+
+.star {
+    width: 100px;
+    height: 100px;
+    margin: 1em 0.2em;
+}
+
+polygon {
+    fill: rgb(180, 179, 179);
+    transition: ease 400ms;
+    cursor: pointer;
+}
+
+.ratedStar polygon {
+    fill: #fcbf49;
+}
+
+#star0 polygon, #star1 polygon, #star2 polygon, #star3 polygon, #star4 polygon {
+    fill: #fcbf49;
+}
