@@ -18,3 +18,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 10. Address Form
 11. Pricing Design
 12. Review Page
+13. Counter
