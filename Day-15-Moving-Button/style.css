@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background-color: #90be6d;
+}
+
+button {
+    position: absolute;
+    margin: 1em;
+    padding: 1em;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #577590;
+    border:  solid 2px #90be6d;
+    cursor: pointer;
+}
