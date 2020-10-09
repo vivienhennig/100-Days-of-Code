@@ -56,6 +56,14 @@ const projects = [
     {
         title: 'Overview Page',
         link: '/Day-14-Overview-Page',
+    }, 
+    {
+        title: 'Moving Button',
+        link: '/Day-15-Moving-Button',
+    },
+    {
+        title: 'Word to binary Converter',
+        link: '/Day-16-Word-to-Binary',
     },
 ];
 

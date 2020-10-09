@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #006d77;
+    background-color: #edf6f9;
+}
+
+input {
+    width: 40em;
+    font-size: 24px;
+    color: #006d77;
+    background-color: #edf6f9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #006d77;
+    outline: none;
+}
+
+p {
+    width: 40em;
+    min-height: 15em;
+    margin: 2em auto;
+
+    font-size: 24px;
+
+}
