@@ -65,6 +65,10 @@ const projects = [
         title: 'Word to binary Converter',
         link: '/Day-16-Word-to-Binary',
     },
+    {
+        title: 'Background Animation',
+        link: '/Day-17-Background-Animation',
+    },
 ];
 
 
