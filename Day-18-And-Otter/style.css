@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2e9e4;
+}
+
+img {
+    animation: spinner 5s linear forwards;
+}
+
+@keyframes spinner {
+    from {width: 0em; transform: rotate(7200deg);}
+    to {width: 35em;}
+}
