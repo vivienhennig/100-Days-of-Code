@@ -69,6 +69,10 @@ const projects = [
         title: 'Background Animation',
         link: '/Day-17-Background-Animation',
     },
+    {
+        title: 'Otter Spinner',
+        link: '/Day-18-And-Otter',
+    },
 ];
 
 
