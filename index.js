@@ -73,6 +73,10 @@ const projects = [
         title: 'Otter Spinner',
         link: '/100-Days-of-Code/Day-18-And-Otter/index.html',
     },
+    {
+        title: 'Night Mode Button',
+        link: '/100-Days-of-Code/Day-19-Night-Mode/index.html',
+    },
 ];
 
 
