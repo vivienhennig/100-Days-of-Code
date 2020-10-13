@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: palegoldenrod;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+img {
+    margin: 1em;
+    height: 40em;
+    width: 5em;
+    border-radius: 20px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.expandedImage {
+    width: 30em;
+}
