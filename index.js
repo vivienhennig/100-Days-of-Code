@@ -77,6 +77,10 @@ const projects = [
         title: 'Night Mode Button',
         link: '/100-Days-of-Code/Day-19-Night-Mode/index.html',
     },
+    {
+        title: 'Expanding Images',
+        link: '/100-Days-of-Code/Day-20-Expanding-Images/index.html',
+    },
 ];
 
 
