@@ -26,3 +26,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 18. Otter Spinner
 19. Night Mode Button
 20. Expanding Images
+21. Local & Session Storage

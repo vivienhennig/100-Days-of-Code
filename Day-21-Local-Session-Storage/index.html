@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local and Session Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="inputContainer flexContainer">
+        <input type="text" name="textInput" id="textInput">
+        <div class="buttonContainer">
+            <button id="sessionStorageButton">save to session storage</button>
+            <button id="localStorageButton">save to local storage</button>
+        </div>
+    </div>
+    <div class="outputContainer flexContainer">
+        <div class="sessionStorageContainer flexContainer">
+            <h1>that's in your session storage</h1>
+            <button id="getSessionStorage">show me</button>
+            <p id="sessionStorageText"></p>
+        </div>
+        <div class="localStorageContainer flexContainer">
+            <h1>that's in your local storage</h1>
+            <button id="getLocalStorage">show me</button>
+            <p id="localStorageText"></p>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

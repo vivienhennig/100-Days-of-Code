@@ -81,6 +81,10 @@ const projects = [
         title: 'Expanding Images',
         link: '/100-Days-of-Code/Day-20-Expanding-Images/index.html',
     },
+    {
+        title: 'Local & Session Storage',
+        link: '/100-Days-of-Code/Day-21-Local-Session-Storage/index.html',
+    },
 ];
 
 
