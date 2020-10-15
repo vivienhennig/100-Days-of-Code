@@ -1,7 +1,12 @@
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darksalmon;
     color: whitesmoke;
@@ -13,9 +18,11 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    text-align: center;
 }
 
 #countdownContainer {
+    margin-bottom: 1em;
     font-size: 56px;
     font-weight: 500;
 }
@@ -23,4 +30,10 @@ body {
 #countdownTitle {
     font-size: 36px;
     font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    #countdownContainer {
+        width: 60%;
+    }   
 }

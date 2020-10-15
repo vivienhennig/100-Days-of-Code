@@ -64,7 +64,34 @@ p {
     color: firebrick;
 }
 
-h1 {
+.error {
+    text-align: center;
+    color: firebrick;
+}
+
+.success {
     text-align: center;
     color: seagreen;
+}
+
+@media (max-width: 768px) {
+    .formContainer {
+        width: 20em;
+        padding: 2em;
+    }
+
+    input {
+        width: 18em;
+        padding: 0.5em;
+        margin: 1em;
+        font-size: 1em;
+
+    }
+
+    button {
+        width: 18em;
+        padding: 0.5em;
+        margin: 1em;
+        font-size: 1em;
+    }   
 }

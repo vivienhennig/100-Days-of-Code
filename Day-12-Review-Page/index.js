@@ -25,3 +25,4 @@ function addClickColorYellow(event) {
 stars.forEach(star => star.addEventListener('mouseover', (event) => addHoverColorYellow(event)));
 stars.forEach(star => star.addEventListener('mouseleave', () => removeHoverColorYellow()));
 stars.forEach(star => star.addEventListener('click', (event) => addClickColorYellow(event)));
+stars.forEach(star => star.addEventListener('touchstart', (event) => addClickColorYellow(event)));

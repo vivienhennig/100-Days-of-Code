@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #006d77;
@@ -31,7 +31,15 @@ p {
     width: 40em;
     min-height: 15em;
     margin: 2em auto;
-
     font-size: 24px;
+}
 
+@media (max-width: 768px) {
+    input {
+        width: 10em;
+    }
+
+    p {
+        width: 10em;
+    }
 }

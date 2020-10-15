@@ -12,11 +12,12 @@ function addWaterdropAnimation(event) {
     const yCoordinate = event.clientY;
     const waterdrop = document.createElement('div');
     const color = getRandomColor();
-
+    console.log(xCoordinate, 'Y', yCoordinate);
+    console.log(screen.width, screen.height)
     waterdrop.classList.add('waterdrop');
     waterdrop.style.backgroundColor = `${color}`;
-    waterdrop.style.left = `${xCoordinate - 300}px`;
-    waterdrop.style.top = `${yCoordinate - 150}px`;
+    waterdrop.style.left = `${xCoordinate - 40}px`;
+    waterdrop.style.top = `${yCoordinate - 40}px`;
 
     waterdropContainer.appendChild(waterdrop);
 }
