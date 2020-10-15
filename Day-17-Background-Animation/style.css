@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     height: 100vh;
-    background-image: url('/Day-17-Background-Animation/fest_und_flauschig.jpg');
+    background-image: url('/100-Days-of-Code/Day-17-Background-Animation/fest_und_flauschig.jpg');
     background-size: cover;
     background-position: center;
 }
