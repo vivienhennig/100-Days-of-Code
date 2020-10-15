@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #d3d3d3;
+    color: #0b090a;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 1em auto;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 1em auto;
+}
+
+.explanationContainer {
+    height: 80%;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 33%;
+}
+
+p {
+    width: 80%;
+}
+
+code {
+    margin: 1em auto;
+    padding: 0.5em;
+    background-color: #0b090a;
+    color: #d3d3d3;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
