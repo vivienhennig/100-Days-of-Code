@@ -95,4 +95,34 @@ button:hover {
 p {
     margin: 1em;
     height: 17%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .buttonContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        flex-direction: column;
+    }
+
+    input {
+        width: 60%;
+        font-size: 32px;
+    }
+
+    button {
+        margin: 1em auto;
+        padding: 0.5em;
+    }
+
+    .outputContainer {
+        flex-direction: row;
+    }
 }

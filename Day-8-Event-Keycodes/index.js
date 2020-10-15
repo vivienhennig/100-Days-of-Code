@@ -23,7 +23,7 @@ function createDisplayDiv(event, title) {
 
     container.classList.add('displayKey');
     titleParagraph.innerText = titleText;
-    contentParagraph.innerText = `${event.keyCode}`;
+    contentParagraph.innerText = title === 'event.key' ? `${event.key}` : `${event.keyCode}`;
 
     container.appendChild(titleParagraph);
     container.appendChild(contentParagraph);

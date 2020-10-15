@@ -11,9 +11,14 @@ setInterval(function () {
     const minutes = Math.floor((distance % (1000 * 6 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    countdownContainer.innerHTML = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
+    let dayText = days != 1 ? 'days' : 'day';
+    let hourText = hours != 1 ? 'hours' : 'hour';
+    let minuteText = minutes != 1 ? 'minutes' : 'minute';
+    let secondText = seconds != 1 ? 'seconds' : 'second';
 
-    const today = days - (days - 1);
+    countdownContainer.innerText = `${days} ${dayText} ${hours} ${hourText} ${minutes} ${minuteText} ${seconds} ${secondText}`;
 
-    countdownTitle.innerHTML = `Today is day ${today} of 100 Days of Code`;
+    let today = 100 - days;
+
+    countdownTitle.innerText = `Today is day ${today} of 100 Days of Code`;
 }, 1000);

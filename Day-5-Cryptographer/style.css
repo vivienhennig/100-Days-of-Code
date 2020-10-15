@@ -32,13 +32,25 @@ input {
 
 .outputContainer {
     height: 20em;
+    max-width: 40em;
     padding: 2em;
     color: white;
     background-color: tomato;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    word-wrap: break-word;
 }
 
 p {
     margin: 1em auto;
+}
+
+@media (max-width: 768px) {
+    .inputContainer {
+        width: 20em;
+    }
+
+    .outputContainer {
+    max-width: 20em;
+}
 }

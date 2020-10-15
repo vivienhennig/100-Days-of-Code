@@ -19,3 +19,25 @@ button {
     border:  solid 2px #90be6d;
     cursor: pointer;
 }
+
+h1 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        display: none;
+    }
+
+    h1 {
+        display: block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #ffffff;
+    }
+}

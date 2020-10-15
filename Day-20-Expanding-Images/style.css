@@ -31,3 +31,20 @@ img {
 .expandedImage {
     width: 30em;
 }
+
+@media (max-width: 786px) {
+    .imageContainer {
+        flex-direction: column;
+    }
+
+    img {
+        margin: 1em;
+        height: 2em;
+        width: 20em;
+    }
+
+    .expandedImage {
+        width: 20em;
+        height: 22em;
+    }
+}

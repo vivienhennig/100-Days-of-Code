@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coookies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>All about Cookies</h1>
+    <p>
+        Cookies are data, stored in small text files, on your computer. When a web server has sent a web page to a
+        browser, the connection is shut down, and the server forgets everything about the user.
+    </p>
+    <div class="explanationContainer">
+        <div class="contentContainer">
+            <h2>Creating Cookies</h2>
+            <p>In JavaScript you write (and save) cookies like this:</p>
+            <code>document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC";</code>
+            <div class="inputContainer">
+                <input type="text" id="setUsernameInput" placeholder="choose a username">
+                <button id="setCookieButton">Set my cookie</button>
+            </div>
+        </div>
+        <div class="contentContainer">
+            <h2>Reading out Cookies</h2>
+            <p>You can read out the cookies which are saved like this.</p>
+            <code>document.cookie;</code>
+            <button id="readCookieButton">Read my cookie</button>
+        </div>
+        <div class="contentContainer">
+            <h2>Deleting Cookies</h2>
+            <p>You don't have to specify a cookie value when you delete a cookie. Just set the expires parameter to a
+                passed date:</p>
+            <code>document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";</code>
+            <div class="inputContainer">
+                <input type="text" id="deleteUsernameInput" placeholder="choose a username">
+                <button id="deleteCookieButton">Delete my cookie</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

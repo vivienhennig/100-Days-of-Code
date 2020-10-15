@@ -59,3 +59,14 @@ button {
     border-top: orange solid 5px;
     box-shadow: 5px 10px 8px 10px gainsboro;
 }
+
+@media (max-width: 768px) {
+
+    .pricingOptionsContainer {
+        justify-content: center;
+    }
+
+    .pricingOption {
+        margin: 2em auto;
+    }
+}
