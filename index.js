@@ -91,7 +91,7 @@ const projects = [
     },
     {
         title: 'Autosuggest with php',
-        link: '/100-Days-of-Code/Day-23-Autpsuggest-with-php/index.html',
+        link: '/100-Days-of-Code/Day-23-Autosuggest-with-php/index.html',
     },
 ];
 
