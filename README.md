@@ -27,3 +27,5 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 19. Night Mode Button
 20. Expanding Images
 21. Local & Session Storage
+22. Coookies
+23. Autosuggest with php
