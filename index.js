@@ -85,6 +85,14 @@ const projects = [
         title: 'Local & Session Storage',
         link: '/100-Days-of-Code/Day-21-Local-Session-Storage/index.html',
     },
+    {
+        title: 'Coookies',
+        link: '/100-Days-of-Code/Day-22-Coookies/index.html',
+    },
+    {
+        title: 'Autosuggest with php',
+        link: '/100-Days-of-Code/Day-23-Autpsuggest-with-php/index.html',
+    },
 ];
 
 
