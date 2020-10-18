@@ -1,9 +1,13 @@
 const getIpButton = document.getElementById('getIpButton');
-const ipSpan = document.getElementById('ipSpan');
-const locationSpan = document.getElementById('locationSpan');
+const ipParagraph = document.getElementById('ipParagraph');
+const locationParagraph = document.getElementById('locationParagraph');
+const mapContainer = document.getElementById('mapContainer');
+
+const mapsAPIKey = 'AIzaSyBUGCXy2CF2syh6g-LA8BGFLO1FJd3Rb8k';
 
 let userIp = '';
 let userLocation = '';
+let userLocationDegrees = '';
 
 
 async function fetchAPI(url, method) {
@@ -21,16 +25,26 @@ async function fetchAPI(url, method) {
 function getIpData() {
     fetchAPI('https://ipinfo.io', 'GET')
         .then(data => {
+            console.log(data)
             userIp = data.ip;
             userLocation = data.city;
+            userLocationDegrees = data.loc;
             displayData(userIp, userLocation);
+            displayLocationMap(userLocationDegrees);
         })
         .catch(error => console.error(error));
 };
 
 function displayData(ip, location) {
-    ipSpan.innerText = ip;
-    locationSpan.innerText = location;
+    ipParagraph.innerHTML = `<span>Your IP: </span>${ip}`;
+    locationParagraph.innerHTML = `<span>Your Location: </span> ${location}`;
 };
+
+function displayLocationMap(locationDegrees) {
+    const length = locationDegrees.split(',')[0];
+    const width = locationDegrees.split(',')[1];
+
+    mapContainer.innerHTML = `<iframe width="700" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=${length}%2C${width}&key=${mapsAPIKey}" allowfullscreen></iframe>`
+}
 
 getIpButton.addEventListener('click', () => getIpData());

@@ -4,21 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ip Address</title>
+    <title>Editor</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div id="headerContainer">
-        <h1>What is my IP Address?</h1>
-        <button id="getIpButton">Get your IP</button>
+        <!-- <h1>write your code in the left editor section and see how it works on the right</h1> -->
+        <button id="runCodeButton">RUN</button>
     </div>
     <div id="contentContainer">
-        <p id="ipParagraph"></p>
-        <p id="locationParagraph"></p>
-        <div id="mapContainer"></div>
-    </div>
+        <div id="editorContainer" contenteditable>
 
+        </div>
+        <iframe id="displayContainer">
+
+        </iframe>
+    </div>
     <script src="index.js"></script>
 </body>
 
