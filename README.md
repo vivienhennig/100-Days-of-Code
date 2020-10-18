@@ -30,3 +30,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 22. Coookies
 23. Autosuggest with php
 24. IP Address
+25. Editor

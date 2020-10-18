@@ -97,6 +97,10 @@ const projects = [
         title: 'IP Address',
         link: '/100-Days-of-Code/Day-24-Ip-Address/index.html',
     },
+    {
+        title: 'Editor',
+        link: '/100-Days-of-Code/Day-25-Editor/index.html',
+    },
 ];
 
 
