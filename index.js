@@ -93,6 +93,10 @@ const projects = [
         title: 'Autosuggest with php',
         link: '/100-Days-of-Code/Day-23-Autosuggest-with-php/index.html',
     },
+    {
+        title: 'IP Address',
+        link: '/100-Days-of-Code/Day-24-Ip-Address/index.html',
+    },
 ];
 
 
