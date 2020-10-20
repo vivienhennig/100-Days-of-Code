@@ -55,7 +55,7 @@ const projects = [
     },
     {
         title: 'Overview Page',
-        link: '/100-Days-of-Code/Day-14-Overview-Page/index.html',
+        link: '/100-Days-of-Code/index.html',
     },
     {
         title: 'Moving Button',
@@ -100,6 +100,14 @@ const projects = [
     {
         title: 'Editor',
         link: '/100-Days-of-Code/Day-25-Editor/index.html',
+    },
+    {
+        title: 'Shell Script',
+        link: '/100-Days-of-Code/Day-26-shell/quiz.zsh',
+    },
+    {
+        title: 'README.md Generator',
+        link: '/100-Days-of-Code/Day-27-README-Generator/index.html',
     },
 ];
 
