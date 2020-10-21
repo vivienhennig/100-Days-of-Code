@@ -94,7 +94,7 @@ function generateReadme() {
 
     console.log(frameworkString);
 
-    const text = `${string}I speak:<br>${languageString}<br>I can build with:<br>${frameworkString}`;
+    const text = `${string}## I speak:<br>${languageString}<br>## I can build with:<br>${frameworkString}`;
 
     download('README.md', text);
 };

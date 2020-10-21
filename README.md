@@ -32,4 +32,5 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 24. [IP Address](https://vivienhennig.github.io/100-Days-of-Code/Day-24-Ip-Address/index.html)
 25. [Editor](https://vivienhennig.github.io/100-Days-of-Code/Day-25-Editor/index.html)
 26. Shell Script
-27. README.md Generator
+27. [README.md Generator](https://vivienhennig.github.io/100-Days-of-Code/Day-27-README-Generator/index.html)
+28. [Live Location](https://vivienhennig.github.io/100-Days-of-Code/Day-28-Live-Location/index.html)

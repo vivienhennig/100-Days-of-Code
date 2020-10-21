@@ -109,6 +109,10 @@ const projects = [
         title: 'README.md Generator',
         link: '/100-Days-of-Code/Day-27-README-Generator/index.html',
     },
+    {
+        title: 'Live Location',
+        link: '/100-Days-of-Code/Day-28-Live-Location/index.html',
+    },
 ];
 
 
