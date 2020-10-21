@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #264653;
+    color: #fcf8ed;
+}
+
+button {
+    padding: 1rem;
+    font-size: 2rem;
+    border: solid 2px #fcf8ed;
+    border-radius: 8px;
+    background-color: #264653;
+    color: #fcf8ed;
+    cursor: pointer;
+    transition: 300ms linear;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.43);
+    color: #fcf8ed;
+}
+
+iframe {
+    width: 40rem;
+    height: 25rem;
+    
+}
