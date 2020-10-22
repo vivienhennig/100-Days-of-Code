@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 100vh;
+    background-color: #0077b6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #023e8a;
+}
+
+.contentCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 25rem;
+    height: 25rem;
+    margin: auto 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fffeff;
+    border-radius: 12px;
+}
+
+select {
+    margin: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 2px solid #023e8a;
+    border-radius: 5px;
+    appearance: none;
+    outline: none;
+}
