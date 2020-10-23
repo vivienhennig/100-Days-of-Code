@@ -10,7 +10,7 @@ body {
     align-items: center;
     flex-flow: row wrap;
     height: 100vh;
-    background-color: #0077b6;
+    background-color: #bdd5ea;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     color: #023e8a;
@@ -36,6 +36,25 @@ select {
     line-height: 1.5;
     border: 2px solid #023e8a;
     border-radius: 5px;
+    color: #023e8a;
     appearance: none;
     outline: none;
+}
+
+#headlineSelect {
+    height: 25%;
+}
+
+h2 {
+    height: 50%;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p {
+    height: 50%;
+    margin: 2rem auto;
+    font-size: 2rem;
+    font-weight: 600;
 }
