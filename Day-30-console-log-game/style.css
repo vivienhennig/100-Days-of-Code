@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #264653;
+    color: #ffffff;
+}
