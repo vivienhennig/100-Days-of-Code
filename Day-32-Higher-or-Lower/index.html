@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher or Lower</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Guess if the next card is higher or lower than the card before.</h1>
+
+    <p>Remember, the numbers go in chronological order. Then come jack, queen, king. Ace is the highest. The colours
+        make no diffrence in this game.</p>
+    <p id="pointsContainer">0 points</p>
+
+    <div class="cardsContainer">
+        <div class="card" id="cardOne">
+            <span class="topLeft cardValue"></span>
+            <span class="topRight cardValue"></span>
+            <span class="middle cardColor"></span>
+            <span class="bottomLeft cardValue"></span>
+            <span class="bottomRight cardValue"></span>
+        </div>
+    </div>
+    <div class="buttonContainer">
+        <button id="higherButton">higher</button>
+        <button id="lowerButton">lower</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
