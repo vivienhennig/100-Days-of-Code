@@ -34,3 +34,7 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 26. Shell Script
 27. [README.md Generator](https://vivienhennig.github.io/100-Days-of-Code/Day-27-README-Generator/index.html)
 28. [Live Location](https://vivienhennig.github.io/100-Days-of-Code/Day-28-Live-Location/index.html)
+29. [Corona Dashboard](https://vivienhennig.github.io/100-Days-of-Code/Day-29-Live-Location/index.html)
+30. [console.log() Game](https://vivienhennig.github.io/100-Days-of-Code/Day-30-console-log-game/index.html)
+31. [Hover Board](https://vivienhennig.github.io/100-Days-of-Code/Day-31-Hover-Board/index.html)
+32. [Higher or Lower](https://vivienhennig.github.io/100-Days-of-Code/Day-32-Higher-or-Lower/index.html)
