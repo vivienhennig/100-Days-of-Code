@@ -129,6 +129,10 @@ const projects = [
         title: 'Higher or Lower',
         link: '/100-Days-of-Code/Day-32-Higher-or-Lower/index.html',
     },
+    {
+        title: 'Horizontal Scroll',
+        link: '/100-Days-of-Code/Day-33-Horizontal-Scroll/index.html',
+    },
 ];
 
 
