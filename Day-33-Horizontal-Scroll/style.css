@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff1e6;
+}
+
+.imageContainer {
+    display: grid;
+    grid-auto-flow: column;
+    width: 30rem;
+    padding: 1rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+img {
+    height: 15rem;
+    margin: auto 1rem;
+    border-radius: 10px;
+    object-fit: contain;
+    scroll-snap-align: center;
+}

@@ -113,6 +113,26 @@ const projects = [
         title: 'Live Location',
         link: '/100-Days-of-Code/Day-28-Live-Location/index.html',
     },
+    {
+        title: 'Corona Dashboard',
+        link: '/100-Days-of-Code/Day-29-Corona-Dashboard/index.html',
+    },
+    {
+        title: 'console.log() Game',
+        link: '/100-Days-of-Code/Day-30-console-log-game/index.html',
+    },
+    {
+        title: 'Hover Board',
+        link: '/100-Days-of-Code/Day-31-Hover-Board/index.html',
+    },
+    {
+        title: 'Higher or Lower',
+        link: '/100-Days-of-Code/Day-32-Higher-or-Lower/index.html',
+    },
+    {
+        title: 'Horizontal Scroll',
+        link: '/100-Days-of-Code/Day-33-Horizontal-Scroll/index.html',
+    },
 ];
 
 
