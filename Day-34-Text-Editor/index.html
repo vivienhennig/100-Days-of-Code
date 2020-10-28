@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="editorContainer">
+        <div class="toolBar">
+            <select name="fontSize" id="fontSizeSelection">
+                <option value="28" id="headline28">Headline 1</option>
+                <option value="26" id="headline26">Headline 2</option>
+                <option value="24" id="headline24">Headline 3</option>
+                <option value="18" id="paragraph">Paragraph</option>
+            </select>
+            <input type="image" src="icons/bold.png" alt="icon bold" name="bold">
+            <input type="image" src="icons/italic.png" alt="icon italic" name="italic">
+            <input type="image" src="icons/underline.png" alt="icon underline" name="underline">
+            <input type="image" src="icons/link.png" alt="icon link" name="link">
+            <input type="image" src="icons/cut.png" alt="icon cut" name="cut">
+            <input type="image" src="icons/paint-roller.png" alt="icon paint" name="paint">
+            <input type="image" src="icons/delete.png" alt="icon delete" name="delete">
+            <input type="image" src="icons/redo.png" alt="icon redo" name="redo">
+            <input type="image" src="icons/undo.png" alt="icon undo" name="undo">
+            <input type="image" src="icons/align-center.png" alt="icon align center" name="alignCenter">
+            <input type="image" src="icons/align-left.png" alt="icon align left" name="alignLeft">
+            <input type="image" src="icons/align-right.png" alt="icon align right" name="alignRight">
+            <input type="image" src="icons/justify-content.png" alt="icon justify text" name="justifyText">
+        </div>
+        <div class="editorContent" contenteditable="true">
+            <p>just write and edit</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

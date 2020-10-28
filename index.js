@@ -133,6 +133,14 @@ const projects = [
         title: 'Horizontal Scroll',
         link: '/100-Days-of-Code/Day-33-Horizontal-Scroll/index.html',
     },
+    {
+        title: 'Text Editor',
+        link: '/100-Days-of-Code/Day-34-Text-Editor/index.html',
+    },
+    {
+        title: 'Digital Clock',
+        link: '/100-Days-of-Code/Day-35-Digital-Clock/index.html',
+    },
 ];
 
 
