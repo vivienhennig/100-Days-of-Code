@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #010101;
+    color: #f1f1f1;
+    font-size: 18px;
+}
+
+.clockContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.numberContainer {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 8rem;
+    height: 11rem;
+    margin: auto 1rem;
+}
+
+.pixel {
+    width: 0.7rem;
+    height: 0.7rem;
+    margin: 0.1rem;
+}
+
+.white {
+    background-color: #f37ce9;
+}

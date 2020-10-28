@@ -39,3 +39,5 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 31. [Hover Board](https://vivienhennig.github.io/100-Days-of-Code/Day-31-Hover-Board/index.html)
 32. [Higher or Lower](https://vivienhennig.github.io/100-Days-of-Code/Day-32-Higher-or-Lower/index.html)
 33. [Horizontal Scroll](https://vivienhennig.github.io/100-Days-of-Code/Day-33-Horizontal-Scroll/index.html)
+34. [Text Editor](https://vivienhennig.github.io/100-Days-of-Code/Day-34-Text-Editor/index.html)
+35. [Digital Clock](https://vivienhennig.github.io/100-Days-of-Code/Day-35-Digital-Clock/index.html)
