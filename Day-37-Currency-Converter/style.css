@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #FFE5D9;
+}
+
+h1, input, select, #conversionOutput {
+    font-family: Avenir, sans-serif;
+    color: #9D8189;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+input {
+    width: 14.5em;
+    font-size: 1em;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    outline: none;
+}
+
+select {
+    font-size: 1em;
+    margin: 0 2em;
+}
+
+em {
+    color: #9D8189;
+}
+
+#conversionOutput {
+    font-size: 3em;
+    margin: 2em;
+}
+
+@media(max-width: 767px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #conversionOutput {
+        font-size: 1.5em;
+    }
+}
