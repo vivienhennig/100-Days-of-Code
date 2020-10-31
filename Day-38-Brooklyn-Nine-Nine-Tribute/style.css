@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #BD967A;
+}
+
+iframe {
+    width: 60rem;
+    height: 40rem;
+    border: none;
+}
+
+@media (max-width: 796px) {
+    iframe {
+        width: 98%;
+        height: 50%;
+    }
+}
