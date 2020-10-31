@@ -41,3 +41,5 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 33. [Horizontal Scroll](https://vivienhennig.github.io/100-Days-of-Code/Day-33-Horizontal-Scroll/index.html)
 34. [Text Editor](https://vivienhennig.github.io/100-Days-of-Code/Day-34-Text-Editor/index.html)
 35. [Digital Clock](https://vivienhennig.github.io/100-Days-of-Code/Day-35-Digital-Clock/index.html)
+36. [Digital Clock](https://vivienhennig.github.io/100-Days-of-Code/Day-36-Cookie-Notice/index.html)
+37. [Digital Clock](https://vivienhennig.github.io/100-Days-of-Code/Day-37-Currency-Converter/index.html)

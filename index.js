@@ -141,6 +141,14 @@ const projects = [
         title: 'Digital Clock',
         link: '/100-Days-of-Code/Day-35-Digital-Clock/index.html',
     },
+    {
+        title: 'Cookie Notice',
+        link: '/100-Days-of-Code/Day-36-Cookie-Notice/index.html',
+    },
+    {
+        title: 'Currency Converter',
+        link: '/100-Days-of-Code/Day-37-Currency-Converter/index.html',
+    },
 ];
 
 
