@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e5e5e5;
+}
+
+.cookieNoticeContainer {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    height: 5rem;
+    width: 100%;
+    background-color: #14213d;
+    color: #e5e5e5;
+    border: 1px solid red;
+}
+
+button {
+    margin: auto 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #14213d;
+    color: #e5e5e5;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+p {
+    margin: auto 2rem;
+}
+
+#acceptCookiesButton {
+    border: 2px solid #fca311;
+}
+
+#acceptCookiesButton:hover {
+    border: 2px solid #fca311;
+    background-color: #fca311;
+    color: #14213d;
+}
+
+#declineCookiesButton {
+    border: 2px solid #e5e5e5;
+}
+
+#declineCookiesButton:hover {
+    border: 2px solid #e5e5e5;
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
