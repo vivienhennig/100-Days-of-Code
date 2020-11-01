@@ -43,3 +43,5 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 35. [Digital Clock](https://vivienhennig.github.io/100-Days-of-Code/Day-35-Digital-Clock/index.html)
 36. [Cookie Notice](https://vivienhennig.github.io/100-Days-of-Code/Day-36-Cookie-Notice/index.html)
 37. [Currency Converter](https://vivienhennig.github.io/100-Days-of-Code/Day-37-Currency-Converter/index.html)
+38. [Brooklyn Nine Nine Tribute](https://vivienhennig.github.io/100-Days-of-Code/Day-38-Brooklyn-Nine-Nine-Tribute/index.html)
+39. [Tip Calculator](https://vivienhennig.github.io/100-Days-of-Code/Day-39-Tip-Calculator/index.html)

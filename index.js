@@ -149,6 +149,14 @@ const projects = [
         title: 'Currency Converter',
         link: '/100-Days-of-Code/Day-37-Currency-Converter/index.html',
     },
+    {
+        title: 'Brooklyn Nine Nine Tribute',
+        link: '/100-Days-of-Code/Day-38-Brooklyn-Nine-Nine-Tribute/index.html',
+    },
+    {
+        title: 'Currency Converter',
+        link: '/100-Days-of-Code/Day-39-Tip-Calculator/index.html',
+    },
 ];
 
 

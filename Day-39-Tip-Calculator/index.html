@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculatorContainer">
+        <div class="inputFields">
+            <h1>calculate your tip</h1>
+            <span id='dollar'><input data-type="currency" inputmode="numeric" pattern="[0-9]*" type="text" name="priceInput" id="priceInput" placeholder="what do you have to pay?">$</span>
+            <span id='percentage'><input data-type="currency" inputmode="numeric" pattern="[0-9]*" type="text" name="percentageInput" id="percentageInput" placeholder="how much do you want to tip?">%</span>
+        </div>
+        <p id="calculatedTotal"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
