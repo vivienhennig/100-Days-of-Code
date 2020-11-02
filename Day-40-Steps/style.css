@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+svg {
+    position: absolute;
+    width: 205px;
+    height: 105px;
+}
+
+polygon {
+    stroke: #027AAF;
+    stroke-width: 3px;
+}
+
+text {
+    fill: #000000;
+    text-transform: uppercase;
+}
+
+.stepContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1005px;
+    height: 120px;
+}
+
+#orderedBox {
+    left: 0;
+    animation: zoomIn 4s forwards;
+    fill: none;
+
+}
+
+#inTheMakingBox {
+    left: 160px;
+    animation: zoomIn 4s forwards;
+    fill: #fff;
+    animation-delay: 3s;
+}
+
+#inOvenBox {
+    left: 320px;
+    animation: zoomIn 4s forwards;
+    fill: #fff;
+    animation-delay: 6s;
+}
+
+#readyBox {
+    left: 480px;
+    animation: zoomIn 4s forwards;
+    fill: #fff;
+    animation-delay: 9s;
+}
+
+#deliveryBox {
+    left: 640px;
+    animation: zoomIn 4s forwards;
+    fill: #fff;
+    animation-delay: 12s;
+}
+
+#rateOrderBox {
+    left: 800px;
+    animation: zoomIn 4s forwards;
+    fill: #fff;
+    animation-delay: 15s;
+}
+
+@keyframes zoomIn {
+    0% {transform: scale(1); z-index: 0; fill: #fff;}
+    50% {transform: scale(1.2); z-index: 100; fill: #027AAF;}    
+    100% {transform: scale(1); z-index: 0; fill: #fff;}
+}
