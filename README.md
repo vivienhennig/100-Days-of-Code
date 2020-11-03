@@ -45,3 +45,5 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 37. [Currency Converter](https://vivienhennig.github.io/100-Days-of-Code/Day-37-Currency-Converter/index.html)
 38. [Brooklyn Nine Nine Tribute](https://vivienhennig.github.io/100-Days-of-Code/Day-38-Brooklyn-Nine-Nine-Tribute/index.html)
 39. [Tip Calculator](https://vivienhennig.github.io/100-Days-of-Code/Day-39-Tip-Calculator/index.html)
+40. [Steps](https://vivienhennig.github.io/100-Days-of-Code/Day-40-Steps/index.html)
+41. [Validation Code](https://vivienhennig.github.io/100-Days-of-Code/Day-41-Valication-Code/index.html)

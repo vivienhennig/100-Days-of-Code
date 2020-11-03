@@ -154,8 +154,16 @@ const projects = [
         link: '/100-Days-of-Code/Day-38-Brooklyn-Nine-Nine-Tribute/index.html',
     },
     {
-        title: 'Currency Converter',
+        title: 'Tip Calculator',
         link: '/100-Days-of-Code/Day-39-Tip-Calculator/index.html',
+    },
+    {
+        title: 'Steps',
+        link: '/100-Days-of-Code/Day-40-Steps/index.html',
+    },
+    {
+        title: 'Validation Code',
+        link: '/100-Days-of-Code/Day-41-Validation-Code/index.html',
     },
 ];
 
