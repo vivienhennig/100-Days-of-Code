@@ -165,6 +165,10 @@ const projects = [
         title: 'Validation Code',
         link: '/100-Days-of-Code/Day-41-Validation-Code/index.html',
     },
+    {
+        title: 'Post It',
+        link: '/100-Days-of-Code/Day-42-Post-It/index.html',
+    },
 ];
 
 
