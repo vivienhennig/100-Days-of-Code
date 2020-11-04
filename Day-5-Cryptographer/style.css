@@ -11,13 +11,13 @@ body {
     align-items: center;
     height: 100vh;
     font-size: 18px;
-    background-color: lightsteelblue;
+    background-color: #f8f9fa;
 }
 
 .inputContainer {
     width: 40em;
     padding: 2em;
-    background-color: white;
+    background-color: #343a40;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -26,7 +26,7 @@ input {
     width: 100%;
     padding: 1em;
     font-size: 0.8em;
-    border: solid 2px tomato;
+    border: solid 2px #343a40;
     outline: none;
 }
 
@@ -34,8 +34,8 @@ input {
     height: 20em;
     max-width: 40em;
     padding: 2em;
-    color: white;
-    background-color: tomato;
+    color:#e9ecef;
+    background-color: #6c757d;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     word-wrap: break-word;

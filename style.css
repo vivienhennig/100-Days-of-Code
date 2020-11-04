@@ -12,8 +12,8 @@ body {
     align-items: center;
     flex-flow: column wrap;
     font-family: 'Roboto', sans-serif;
-    background-color: #fcd5ce;
-    color: #343a40;
+    background-color: #ffffff;
+    color: #4a4e69;
 }
 
 h1 {
@@ -27,26 +27,39 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     flex-flow: row wrap;
-    width: 95%;
+    width: 75%;
     padding: 2em;
 }
 
-.projectTile {
-    width: 17em;
-    margin: 2em auto;
-    padding: 2em 1em;
+.link {
     text-align: center;
     font-size: 18px;
+    margin-bottom: 1em;
     font-weight: 600;
     text-decoration: none;
-    color: #343a40;
-    background-color: #f8edeb;
-    border: solid #ffb5a7 2px;
-    transition: all ease 300ms;
+    color: #4a4e69;
+    transition: all ease 400ms;
     cursor: pointer;
 }
 
 .projectTile:hover {
-    letter-spacing: 0.1em;
+    transform: scale(1.05);
+    box-shadow: #4a4e69 1px 1px 7px;
 }
 
+.projectTile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 20em;
+    margin: 1em;
+    border: #4a4e69 2px solid;
+    transition: all ease 400ms;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 1em;
+}
