@@ -21,9 +21,9 @@ function displayPosition() {
     iframe.setAttribute('frameborder', '0');
     iframe.style.border = '0';
 
-    iframe.src = `https://www.google.com/maps/embed/v1/view?key=AIzaSyBUGCXy2CF2syh6g-LA8BGFLO1FJd3Rb8k&center=${latitude},${longitude}&zoom=15`
+    iframe.src = `https://www.google.com/maps/embed/v1/view?key=AIzaSyBUGCXy2CF2syh6g-LA8BGFLO1FJd3Rb8k&center=${latitude},${longitude}&zoom=15`;
 
     body.appendChild(iframe);
-}
+};
 
-getPositionButton.addEventListener('click', () => getPosition())
+getPositionButton.addEventListener('click', () => getPosition());
