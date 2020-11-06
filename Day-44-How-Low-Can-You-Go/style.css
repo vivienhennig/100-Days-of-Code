@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 200000rem;
+    background-color: #5390d9;
+    color: #caf0f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contentContainer {
+    position: fixed;
+    top: 20rem;
+    text-align: center;
+}
+
+h1, p {
+    margin: 2rem 0;
+}
+
+#meterDisplay {
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 5px 5px #20579b;
+}

@@ -49,3 +49,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 41. [Validation Code](https://vivienhennig.github.io/100-Days-of-Code/Day-41-Valication-Code/index.html)
 42. [Post It](https://vivienhennig.github.io/100-Days-of-Code/Day-42-Post-It/index.html)
 43. [Color Countdown](https://vivienhennig.github.io/100-Days-of-Code/Day-43-Color-Countdown/index.html)
+44. [How low can you go?](https://vivienhennig.github.io/100-Days-of-Code/Day-44-How-Low-Can-You-Go/index.html)

@@ -1,6 +1,5 @@
 const inputFields = document.querySelectorAll('input');
 const validationContainer = document.getElementById('validationContainer');
-console.log(inputFields);
 
 inputFields.forEach(inputField => inputField.value = '');
 
