@@ -216,7 +216,11 @@ const projects = [
         link: '/100-Days-of-Code/Day-43-Color-Countdown/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_43.png',
     },
-
+    {
+        title: 'How low can you go?',
+        link: '/100-Days-of-Code/Day-44-How-Low-Can-You-Go/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_44.png',
+    },
 ];
 
 
