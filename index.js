@@ -221,6 +221,16 @@ const projects = [
         link: '/100-Days-of-Code/Day-44-How-Low-Can-You-Go/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_44.png',
     },
+    {
+        title: 'Where is Waldo?',
+        link: '/100-Days-of-Code/Day-45-Where-is-Waldo/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_44.png',
+    },
+    {
+        title: 'Flip Card',
+        link: '/100-Days-of-Code/Day-46-Flip-Card/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_44.png',
+    },
 ];
 
 
