@@ -223,13 +223,18 @@ const projects = [
     },
     {
         title: 'Where is Waldo?',
-        link: '/100-Days-of-Code/Day-45-Where-is-Waldo/index.html',
-        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_44.png',
+        link: '/100-Days-of-Code/Day-45-Where-is-Waldo/home.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_45.png',
     },
     {
         title: 'Flip Card',
         link: '/100-Days-of-Code/Day-46-Flip-Card/index.html',
-        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_44.png',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_46.png',
+    },
+    {
+        title: 'Remus Lupin',
+        link: '/100-Days-of-Code/Day-47-Remus-Lupin/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_47.png',
     },
 ];
 

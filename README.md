@@ -50,5 +50,6 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 42. [Post It](https://vivienhennig.github.io/100-Days-of-Code/Day-42-Post-It/index.html)
 43. [Color Countdown](https://vivienhennig.github.io/100-Days-of-Code/Day-43-Color-Countdown/index.html)
 44. [How low can you go?](https://vivienhennig.github.io/100-Days-of-Code/Day-44-How-Low-Can-You-Go/index.html)
-45. [Where is Waldo?](https://vivienhennig.github.io/100-Days-of-Code/Day-45-Where-is-Waldo/index.html)
+45. [Where is Waldo?](https://vivienhennig.github.io/100-Days-of-Code/Day-45-Where-is-Waldo/home.html)
 46. [Flip Card](https://vivienhennig.github.io/100-Days-of-Code/Day-46-Flip-Card/index.html)
+46. [Remus Lupin](https://vivienhennig.github.io/100-Days-of-Code/Day-47-Remus-Lupin/index.html)
