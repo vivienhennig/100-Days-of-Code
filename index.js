@@ -236,6 +236,11 @@ const projects = [
         link: '/100-Days-of-Code/Day-47-Remus-Lupin/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_47.png',
     },
+    {
+        title: 'Staggered Menu',
+        link: '/100-Days-of-Code/Day-48-Staggered-Menu/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_47.png',
+    },
 ];
 
 

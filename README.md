@@ -52,4 +52,5 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 44. [How low can you go?](https://vivienhennig.github.io/100-Days-of-Code/Day-44-How-Low-Can-You-Go/index.html)
 45. [Where is Waldo?](https://vivienhennig.github.io/100-Days-of-Code/Day-45-Where-is-Waldo/home.html)
 46. [Flip Card](https://vivienhennig.github.io/100-Days-of-Code/Day-46-Flip-Card/index.html)
-46. [Remus Lupin](https://vivienhennig.github.io/100-Days-of-Code/Day-47-Remus-Lupin/index.html)
+47. [Remus Lupin](https://vivienhennig.github.io/100-Days-of-Code/Day-47-Remus-Lupin/index.html)
+48. [Staggered Menu](https://vivienhennig.github.io/100-Days-of-Code/Day-48-Staggered-Menu/index.html)

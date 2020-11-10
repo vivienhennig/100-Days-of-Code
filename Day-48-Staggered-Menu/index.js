@@ -1,0 +1,1 @@
+document.getElementById('displayMenu').checked = false;
