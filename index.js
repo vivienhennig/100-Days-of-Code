@@ -239,7 +239,12 @@ const projects = [
     {
         title: 'Staggered Menu',
         link: '/100-Days-of-Code/Day-48-Staggered-Menu/index.html',
-        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_47.png',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_48.png',
+    },
+    {
+        title: 'Dynamic Shadow',
+        link: '/100-Days-of-Code/Day-489-Dynamic-Shadow/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_49.png',
     },
 ];
 

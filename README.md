@@ -54,3 +54,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 46. [Flip Card](https://vivienhennig.github.io/100-Days-of-Code/Day-46-Flip-Card/index.html)
 47. [Remus Lupin](https://vivienhennig.github.io/100-Days-of-Code/Day-47-Remus-Lupin/index.html)
 48. [Staggered Menu](https://vivienhennig.github.io/100-Days-of-Code/Day-48-Staggered-Menu/index.html)
+49. [Dynamic Shadow](https://vivienhennig.github.io/100-Days-of-Code/Day-49-Dynamic-Shadow/index.html)
