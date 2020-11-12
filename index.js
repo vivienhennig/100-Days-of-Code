@@ -243,7 +243,7 @@ const projects = [
     },
     {
         title: 'Dynamic Shadow',
-        link: '/100-Days-of-Code/Day-489-Dynamic-Shadow/index.html',
+        link: '/100-Days-of-Code/Day-49-Dynamic-Shadow/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_49.png',
     },
 ];
@@ -252,16 +252,20 @@ const projects = [
 projects.forEach(project => {
     const projectTile = document.createElement('div');
     const link = document.createElement('a');
+    const imageLink = document.createElement('a');
     const image = document.createElement('img');
-
-    link.setAttribute('href', `${project.link}`);
-    link.classList.add('link');
-    projectTile.classList.add('projectTile');
-    link.innerText = project.title;
 
     image.setAttribute('src', `${project.image}`);
     
-    projectTile.appendChild(image);
+    imageLink.setAttribute('href', `${project.link}`);
+    imageLink.appendChild(image);
+    
+    link.setAttribute('href', `${project.link}`);
+    link.classList.add('link');
+    link.innerText = project.title;
+
+    projectTile.classList.add('projectTile');
+    projectTile.appendChild(imageLink);
     projectTile.appendChild(link);
 
     projectContainer.appendChild(projectTile);
