@@ -246,6 +246,11 @@ const projects = [
         link: '/100-Days-of-Code/Day-49-Dynamic-Shadow/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_49.png',
     },
+    {
+        title: 'Beverage Timer',
+        link: '/100-Days-of-Code/Day-50-Beverage-Timer/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_50.png',
+    },
 ];
 
 
