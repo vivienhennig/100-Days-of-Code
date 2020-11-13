@@ -251,6 +251,11 @@ const projects = [
         link: '/100-Days-of-Code/Day-50-Beverage-Timer/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_50.png',
     },
+    {
+        title: 'Scroll Indicator',
+        link: '/100-Days-of-Code/Day-51-Scroll-Indicator/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_51.png',
+    },
 ];
 
 
