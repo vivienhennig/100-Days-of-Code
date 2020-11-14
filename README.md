@@ -57,3 +57,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 49. [Dynamic Shadow](https://vivienhennig.github.io/100-Days-of-Code/Day-49-Dynamic-Shadow/index.html)
 50. [Beverage Timer](https://vivienhennig.github.io/100-Days-of-Code/Day-50-Beverage-Timer/index.html)
 51. [Scroll Indicator](https://vivienhennig.github.io/100-Days-of-Code/Day-51-Scroll-Indicator/index.html)
+52. [Button Border Animation](https://vivienhennig.github.io/100-Days-of-Code/Day-52-Button-Border-Animation/index.html)

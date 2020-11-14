@@ -256,6 +256,11 @@ const projects = [
         link: '/100-Days-of-Code/Day-51-Scroll-Indicator/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_51.png',
     },
+    {
+        title: 'Button Border Animation',
+        link: '/100-Days-of-Code/Day-52-Button-Border-Animation/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_52.png',
+    },
 ];
 
 
