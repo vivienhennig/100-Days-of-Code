@@ -15,8 +15,7 @@ counters.forEach(counter => {
             setTimeout(countToTarget, 1);
         } else {
             counter.innerText = targetNumber;
-        }
+        };
     };
-
     countToTarget();
 });

@@ -58,3 +58,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 50. [Beverage Timer](https://vivienhennig.github.io/100-Days-of-Code/Day-50-Beverage-Timer/index.html)
 51. [Scroll Indicator](https://vivienhennig.github.io/100-Days-of-Code/Day-51-Scroll-Indicator/index.html)
 52. [Button Border Animation](https://vivienhennig.github.io/100-Days-of-Code/Day-52-Button-Border-Animation/index.html)
+53. [Text Hover Effect](https://vivienhennig.github.io/100-Days-of-Code/Day-53-Text-Hover-Effect/index.html)

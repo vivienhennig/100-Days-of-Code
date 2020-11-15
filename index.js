@@ -261,6 +261,11 @@ const projects = [
         link: '/100-Days-of-Code/Day-52-Button-Border-Animation/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_52.png',
     },
+    {
+        title: 'Hover Text Effect',
+        link: '/100-Days-of-Code/Day-53-Hover-Text-Effect/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_53.png',
+    },
 ];
 
 

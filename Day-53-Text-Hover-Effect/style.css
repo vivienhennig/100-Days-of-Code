@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    font-size: 4rem;
+    font-family: monospace;
+}
+
+p {
+    color: #577590;
+    transition: all cubic-bezier(.46,.03,.52,.96) 400ms;
+}
+
+p:hover {
+    text-shadow: 
+        220px 0px #90be6da9,
+        -220px 0px #90be6da9,
+        -220px 80px #43aa8ba9,
+        -220px -80px #f9c74fa9,
+        220px 80px #f9c74fa9,
+        220px -80px #43aa8ba9,
+        0px -80px #277da1a9,
+        0px 80px #277da1a9;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    p:hover {
+        text-shadow: 
+            100px 0px #90be6da9,
+            -100px 0px #90be6da9,
+            -100px 80px #43aa8ba9,
+            -100px -80px #f9c74fa9,
+            100px 80px #f9c74fa9,
+            100px -80px #43aa8ba9,
+            0px -80px #277da1a9,
+            0px 80px #277da1a9;
+    }
+}
