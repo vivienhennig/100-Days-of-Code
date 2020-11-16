@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+p {
+    color: #3a0ca3;
+    transition: all ease 300ms;
+}
+
+p:hover {
+    animation: moveText 3s linear;
+}
+
+
+@keyframes moveText {
+    0% {text-shadow: 0 3rem #f72585, 0 -3rem #4cc9f0;}
+    12.5% {text-shadow: 350px 3rem #d61e92, -350px -3rem #4aaff0;}
+    25% {text-shadow: 350px 0 #b5179e, -350px 0 #4895ef;}
+    37.5% {text-shadow: 350px -3rem #9410ab, -350px 3rem #467bef;}
+    50% {text-shadow: 0 -3rem #7209b7, 0 3rem #4361ee;}
+    62.5% {text-shadow: -350px -3rem #640ab2, 350px 3rem #414cdc;}
+    75% {text-shadow: -350px 0 #560bad, 350px 0 #3f37c9;}
+    87.5% {text-shadow: 0 0 #3a0ca3, 0 0 #3a0ca3;}
+    100% {text-shadow: 0 0 #3a0ca3, 0 0 #3a0ca3;}
+}
