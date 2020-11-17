@@ -263,7 +263,17 @@ const projects = [
     },
     {
         title: 'Hover Text Effect',
-        link: '/100-Days-of-Code/Day-53-Hover-Text-Effect/index.html',
+        link: '/100-Days-of-Code/Day-53-Text-Hover-Effect/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_53.png',
+    },
+    {
+        title: 'Hover Animation',
+        link: '/100-Days-of-Code/Day-54-Text-Animation/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_53.png',
+    },
+    {
+        title: 'Image Overlay',
+        link: '/100-Days-of-Code/Day-55-Image-Overlay/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_53.png',
     },
 ];
