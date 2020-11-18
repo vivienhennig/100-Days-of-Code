@@ -27,7 +27,6 @@ img {
     width: 100%;
 }
 
-
 figure::before, figure::after {
     position: absolute;
     content: '';
@@ -37,7 +36,6 @@ figure::before, figure::after {
     opacity: 0;
     transition: all ease-in 500ms;
 }
-
 
 figure::before {
     top: 0;

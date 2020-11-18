@@ -276,6 +276,11 @@ const projects = [
         link: '/100-Days-of-Code/Day-55-Image-Overlay/index.html',
         image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_53.png',
     },
+    {
+        title: 'Search Design',
+        link: '/100-Days-of-Code/Day-56-Search-Design/index.html',
+        image: '/100-Days-of-Code/Day-14-Overview-Page/images/Day_53.png',
+    },
 ];
 
 

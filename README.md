@@ -61,3 +61,4 @@ Coding a little project everyday for the next 100 days. Starting on 24. Septembe
 53. [Text Hover Effect](https://vivienhennig.github.io/100-Days-of-Code/Day-53-Text-Hover-Effect/index.html)
 54. [Text Animation](https://vivienhennig.github.io/100-Days-of-Code/Day-54-Text-Animation/index.html)
 55. [Image Overlay](https://vivienhennig.github.io/100-Days-of-Code/Day-55-Image-Overlay/index.html)
+56. [Search Design](https://vivienhennig.github.io/100-Days-of-Code/Day-56-Search-Design/index.html)
