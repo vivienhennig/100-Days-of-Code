@@ -1,6 +1,6 @@
 const countdownContainer = document.getElementById('countdownContainer');
 const countdownTitle = document.getElementById('countdownTitle');
-const endDate = new Date('Jan 01, 2021, 23:59:59').getTime();
+const endDate = new Date('Nov 17, 2020, 23:59:59').getTime();
 
 setInterval(function () {
     const startDate = new Date().getTime();
@@ -20,5 +20,5 @@ setInterval(function () {
 
     let today = 100 - days;
 
-    countdownTitle.innerText = `Today is day ${today} of 100 Days of Code`;
+    countdownTitle.innerText = `Today is day ${today} of 55 Days of Code`;
 }, 1000);
