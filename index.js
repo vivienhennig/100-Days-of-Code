@@ -269,12 +269,12 @@ const projects = [
     {
         title: 'Hover Animation',
         link: '/55-Days-of-Code/Day-54-Text-Animation/index.html',
-        image: '/55-Days-of-Code/Day-14-Overview-Page/images/Day_53.png',
+        image: '/55-Days-of-Code/Day-14-Overview-Page/images/Day_54.png',
     },
     {
         title: 'Image Overlay',
         link: '/55-Days-of-Code/Day-55-Image-Overlay/index.html',
-        image: '/55-Days-of-Code/Day-14-Overview-Page/images/Day_53.png',
+        image: '/55-Days-of-Code/Day-14-Overview-Page/images/Day_55.png',
     },
 ];
 
