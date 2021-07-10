@@ -1,6 +1,7 @@
 # 55-Days-of-Code
 
 Coding a little project everyday for the next 55 days. Starting on 24. September 2020.
+On this page you can find an overview of all projects: https://vivienhennig.github.io/55-Days-of-Code/
 
 ***
 
